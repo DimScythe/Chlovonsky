@@ -1,23 +1,19 @@
-import logo from './logo.svg';
+import ShopImage from "./ShopImage.png"
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  <div>
+    <h1>Chlovonsky</h1>
+    <h2>How I got the recipe:</h2>
+    <p>One day I was watching a British Twtich Streamer
+      and he was baking some cookies and I asked for the
+      recipe and I got it from him and I started selling it
+      :D
+    </p>
+    <img src={ShopImage} alt="Cookie Shop front store" class="center"
+          height={350}
+          width={350}/>
     </div>
   );
 }
