@@ -18,3 +18,14 @@ h2,p{
   margin: auto;
   width: auto;
 }
+
+.cookie-container{
+  margin: 50px;
+}
+
+.list-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
